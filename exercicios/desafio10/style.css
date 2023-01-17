@@ -1,0 +1,141 @@
+@charset  "UTF-8";
+
+@font-face {
+    font-family:'android';
+    src: url('idroid.otf') format('opentype');
+    
+}
+@font-face {
+    font-family: 'robo';
+    src: url('Roboto-Bold.ttf') format('truetype');
+}
+:root {
+    --cor1:#204BA1;
+    --cor2:#132D61;
+    --cor3:#2D69E0;
+    --cor4:#2F6FED;
+    --cor5:#285DC7;
+    --fonte0: 'android', sans-serif;
+    --fonte1: 'robo', sans-serif;
+}
+body{
+ background-color: #367de8a2;
+}
+
+header{
+    background-color: var(--cor5);
+    
+    margin-bottom: 0px;
+    min-height: 150px;
+    padding-top: 40px;
+    background-image: linear-gradient(to bottom, var(--cor1),var(--cor5));
+}
+h1{
+    color: white;
+    margin: 10px;
+    font-family: var(--fonte1);
+    
+}
+header > h1 {
+    text-align: center;
+    text-shadow: 2px 2px rgba(55, 54, 54, 0.651);
+}
+header > p{
+    color: white;
+    text-align: center;
+    padding: 30px;
+    text-shadow: 2px 2px rgba(55, 54, 54, 0.651);
+    
+}
+a:hover{
+    color: rgb(147, 65, 201);
+    background-color: #132d6181;
+    transition-duration: 0.7s;
+}
+
+nav{
+    text-shadow: 2px 2px rgba(55, 54, 54, 0.651);
+   padding: 10px;
+}
+nav > a {
+    color: rgba(255, 255, 255, 0.877);
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin: 10px;
+    text-indent: 30px;
+}
+main{
+  background-color: white;
+    margin: auto;
+    margin-top: 0px;
+    border-radius: 0px 0px 10px 10px ;
+    max-width: 800px;
+    min-width: 320px;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(52, 52, 52, 0.473);
+
+}
+main > h1 {
+    color: #132D61;
+    font-family: var(--fonte0);
+
+}
+div#video{
+    background-color: #132D61;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+
+div#video > iframe{
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    width: 90%;
+    height: 90%;
+}
+h2{
+    color: #204BA1;
+    font-family: var(--fonte0);
+    background-color: #0052f538;
+    margin: 10px;
+   
+}
+
+
+section{
+    background-color: #3a82f0a2 ;
+    margin: 10px;
+    border-radius: 10px 10px;
+    height: 380px;
+}
+section > p {
+    margin: 10px;
+}
+h3{
+    background-color: #062259c6;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+}
+footer{
+    background-color: #132D61;
+    text-align: center;
+    color: white;
+    
+}
+img{
+    display: block;
+    margin: auto;
+}
+ul{
+    columns: 2;
+    list-style-position: inside;
+    list-style-type:\   \00A0\00A0 ;
+}
